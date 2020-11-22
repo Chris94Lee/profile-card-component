@@ -89,7 +89,6 @@ hr {
     justify-content: center;
     align-items: center;
     height: 35%;
-    
 }
 
 .victor{
@@ -98,7 +97,7 @@ hr {
     left: 0;
     right: 0;
     position: absolute;
-    transform: translate(0, -80%);
+    transform: translate(0, -75%);
     border-radius: 80px;
     border:solid white 7px;
 }
