@@ -1,0 +1,67 @@
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.background{
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.background-top{
+    width: 750px;
+    position: fixed;
+    top:-60%;
+    left: -10%;
+    z-index: 2;
+}
+
+.background-bottom{
+    width: 750px;
+    position: fixed;
+    bottom: -60%;
+    right: -10%;
+    z-index: 2;
+}
+
+.mainCard{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 12px;
+    z-index: 3;
+}
+
+.top{
+    background-image: url("images/bg-pattern-card.svg");
+    height: 35%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    transform: translate(0, -20%);
+}
+
+.victor{
+    translate: -100px;
+    border-radius: 80px;
+}
